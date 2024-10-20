@@ -1,0 +1,26 @@
+.perfilContainer {
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(0deg, #1a1826, #413b5e);
+}
+
+.perfilContainer p {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.usuario {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+}

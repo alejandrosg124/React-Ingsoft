@@ -1,0 +1,68 @@
+.catalogContainer {
+    padding: 100px 20px;
+    background: linear-gradient(180deg, #413b5e, #1a1826);
+    color: #f1f1f1;
+}
+  
+.catalogTitle {
+    font-size: 3em;
+    color: #f1f1f1;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.documentList {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.documentItem {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+  
+.largeBox {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.documentItem h3 {
+    color: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+.documentItem p {
+    color: #bbb;
+}
+
+.searchBar {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+.searchInput {
+    width: 50%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #508094;
+    color: #f1f1f1;
+}
+
+.searchInput::placeholder {
+    color: #bbb;
+}
